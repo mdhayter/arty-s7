@@ -213,7 +213,7 @@ set files [list \
                [file normalize $base_dir/src/test/verilog/host_behav.sv] \
                [file normalize $base_dir/src/test/verilog/nasti_ram_behav.sv] \
                [file normalize $base_dir/src/test/verilog/chip_top_tb.sv] \
-               [file normalize $proj_dir/$project_name.srcs/sources_1/ip/mig_7series_0/mig_7series_0/example_design/sim/ddr3_model.v] \
+               [file normalize $proj_dir/$project_name.srcs/sources_1/ip/mig_7series_0/mig_7series_0/example_design/sim/ddr3_model.sv] \
               ]
 add_files -norecurse -fileset $obj $files
 
